@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Banking Dashboard(HTML, CSS, JS)</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-body">
+                <div class="balance">
+                    <div class="balance status">
+                        <h1>Banking Dashboard</h1>
+                        <h2>Current Balance:$ <span id="current-balance">1000</span></h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="submit-area">
+                            <h4>Deposit Amount</h4>
+                            <input id="deposit-amount" type="text" class="form-control" placeholder="Enter deposit amount"><br><br>
+                            <button id="deposit-btn" class="btn">Deposit</button>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div class="submit-area">
+                            <h4>Withdraw Amount</h4>
+                            <input id="withdraw-amount" type="text" class="form-control" placeholder="Enter withdraw amount"><br><br>
+                            <button id="withdraw-btn" class="btn">Withdraw</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; Banking</p>
+        <a href="http://www.linkedin.com/in">linkedin |</a>
+        <a href="/contact">Contact Us</a>
+    </footer>
+
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
